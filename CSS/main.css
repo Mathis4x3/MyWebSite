@@ -5,3 +5,36 @@
     color: black;
     transition: 0.5s;
 }
+.navbar{
+    background-color: #f1c893;
+    width: 100%;
+    box-shadow: 0 5px 10px #e1ba8f;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+.navbar .buttons{
+    display: flex;
+    margin: auto;
+
+}
+.navbar .btn{
+    margin: 20px 40px;
+}
+.navbar a{
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 1.3em;
+}
+.burger{
+    position: absolute;
+    right: 0;
+}
+@media screen and (max-width: 990px){
+    .navbar{
+        display: none;
+    }
+    .navbar .burger{
+        display: block;
+    }
+}
