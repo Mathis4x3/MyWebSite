@@ -7,15 +7,16 @@
 }
 a:hover{
     text-decoration-line: underline;
-    background-color: #f5dcbc;
+    background-color: #ffffff;
 }
 .navbar{
+    position: relative;
     background-color: #f1c893;
     width: 100%;
     box-shadow: 0 5px 10px #e1ba8f;
     display: flex;
     height: 100px;
-    justify-content: center;
+    min-width: 200px;
 }
 .navbar .buttons{
     display: flex;
@@ -29,68 +30,66 @@ a:hover{
     border-radius: 50px;
     font-size: 1.3em;
 }
-.navbarB{
-    position: absolute;
-    right: 0;
-    top: 0;
+.showBurger{
     display: none;
-    height: 100px;
-    width: 80px;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    background-color: #f1c893;
-    box-shadow: 0 5px 10px #e1ba8f;
-}
-.navbarB .burger{
-    width: 24px;
-    position: relative;
-    top: 50%;
-    left: 30px;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-.navbarB .line{
-    background-color: black;
-    height: 3px;
-    width: 100%;
-}
-.navbarB .line1{
-    transform: translateY(-5px);
-}
-.navbarB .line3{
-    transform: translateY(5px);
-}
-.navbarB .buttons{
     position: absolute;
+    bottom: 50%;
+    width: 100%;
     justify-content: space-around;
-    display: none;
-    transform: translateY(-50%);
+    transform: translateY(50%);
+}
+.showBurger p{
+    transform: translateY(-5px);
+    cursor: default;
+}
+.burger{
+    position: relative;
+    cursor: pointer;
+    height: 20px;
+    width: 25px;
+}
+.burger .line{
+    height: 3px;
+    width: 25px;
+    background-color: black;
+}
+.burger .line2{
+    position: absolute;
     top: 50%;
-    left: 70px;
-    width: 80%;
+    transform: translateY(-50%);
 }
-.navbarB .btn{
-    margin: 10px 0;
+.burger .line3{
+    position: absolute;
+    bottom: 0;
 }
-.navbarB a{
-    padding: 5px 10px;
-    border-radius: 50px;
-    font-size: 1.3em;
-}
-.clicked{
-    width: 100%;
-}
-.clicked .buttons{
-    display: flex;
-}
+
 @media screen and (max-width: 650px){
     .navbar{
-        opacity: 0.4;
+        height: 70px;
     }
     .navbar .buttons{
-        display: none;
-    }
-    .navbarB{
         display: block;
+        margin: unset;
+        width: 100%;
+        transform: translateY(-500%);
+    }
+    .navbar .btn{
+        padding: 6px;
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f3cc9a;
+    }
+    .showBurger{
+        display: flex;
+    }
+    .navbar.clicked{
+        height: 300px;
+    }
+    .showBurger.clicked{
+        bottom: 30px;
+    }
+    .navbar .buttons.clicked{
+        transform: translateY(0);
     }
 }
