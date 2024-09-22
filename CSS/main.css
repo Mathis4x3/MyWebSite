@@ -35,7 +35,7 @@ a:hover{
     position: absolute;
     bottom: 50%;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
     transform: translateY(50%);
 }
 .showBurger p{
@@ -68,8 +68,8 @@ a:hover{
         height: 70px;
     }
     .navbar .buttons{
-        margin: unset;
         transform: translateY(-500%);
+        margin: unset;
         width: 98%;
     }
     .navbar .btn{
