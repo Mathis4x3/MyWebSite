@@ -68,10 +68,9 @@ a:hover{
         height: 70px;
     }
     .navbar .buttons{
-        display: block;
         margin: unset;
-        width: 100%;
         transform: translateY(-500%);
+        width: 98%;
     }
     .navbar .btn{
         padding: 6px;
@@ -90,6 +89,7 @@ a:hover{
         bottom: 30px;
     }
     .navbar .buttons.clicked{
+        display: block;
         transform: translateY(0);
     }
 }
