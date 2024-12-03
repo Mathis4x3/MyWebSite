@@ -1092,6 +1092,10 @@ body {
 #iti8za {
     padding: 10px;
 }
+.text{
+    max-width: 2000px;
+    line-height: 30px;
+}
 
 #i8gjgn {
     align-self: auto;
