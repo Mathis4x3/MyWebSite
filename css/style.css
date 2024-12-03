@@ -5,6 +5,7 @@
 img{
     border: black solid 1px;
     border-radius: 20px;
+    max-width: 100%;
 }
 
 body {
