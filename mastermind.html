@@ -1,116 +1,12 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <title>Home</title>
-
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/portfolio.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/nicepage.css" media="screen">
-    <link rel="stylesheet" href="css/projects.css" media="screen">
-    <meta name="generator" content="Nicepage 7.0.3, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
-    
-
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Home">
-    <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="Home.html" data-home-page-title="Home" data-path-to-root="./" data-include-products="false" class="u-body u-xl-mode" data-lang="en">
-  <!-- Side Menu -->
-  <a id="menu-toggle" href="#" class="btn btn-primary btn-lg"><i class="fa fa-bars"></i></a>
-  <div id="sidebar-wrapper">
-      <ul class="sidebar-nav">
-          <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-          <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a></li>
-          <li><a href="#top">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Projects</a></li>
-          <li><a href="#portfolio">CV</a></li>
-          <li><a href="#contact">Contact</a></li>
-      </ul>
-  </div>
-  <!-- /Side Menu -->
-  <h1 style="text-align: center; text-shadow: 1px 1px 2px #8bc7f4, 0 0 1em #0059ff, 0 0 0.2em #628ae3;">Mastermind</h1>
-    <section class="u-align-center u-clearfix u-container-align-center u-section-1" id="carousel_2f7d">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <div class="data-layout-selected u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
-          <div class="u-layout">
-            <div class="u-layout-row">
-              <div class="u-align-center-sm u-align-center-xs u-container-align-center-sm u-container-align-left-xs u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-1">
-                <div class="u-container-layout u-valign-middle-sm u-valign-middle-xs u-container-layout-1">
-                  <img class="u-image u-image-default u-image-1" data-image-width="720" data-image-height="1080" src="../../Site1/images/pexels-marlene-leppanen-1183266.jpg">
-                </div>
-              </div>
-              <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-white u-layout-cell-2">
-                <div class="u-container-layout u-valign-middle u-container-layout-2">
-                  <p class="u-heading-font u-text u-text-1"> Each color evokes different emotions for each individual. Your emotions still depend on your individual life experience. ipsum dolor sit amet, ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore gna aliqua quis nostrud consequat.<br>
-                    <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&nbsp;​Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <footer>
-      <div class="container">
-          <div class="row">
-              <div class="col-md-6 col-md-offset-3 text-center">
-                  <ul class="list-inline">
-                      <li><a href="https://www.linkedin.com/in/mathis-ourliac-8a80372ab"><i class="fa fa-linkedin fa-3x"></i></a></li>
-                      <li><a href="https://github.com/Mathis4x3"><i class="fa fa-github fa-3x"></i></a></li>
-                  </ul>
-                  <div class="top-scroll">
-                      <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
-                  </div>
-                  <hr>
-                  <p>Copyright &copy; Mathis OURLIAC 2024</p>
-              </div>
-          </div>
-      </div>
-  </footer>
-
-  <!-- JavaScript -->
-  <script src="js/jquery-1.10.2.js"></script>
-  <script src="js/bootstrap.js"></script>
-
-  <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
-  <script>
-      $("#menu-close").click(function(e) {
-          e.preventDefault();
-          $("#sidebar-wrapper").toggleClass("active");
-      });
-  </script>
-  <script>
-      $("#menu-toggle").click(function(e) {
-          e.preventDefault();
-          $("#sidebar-wrapper").toggleClass("active");
-      });
-  </script>
-  <script>
-      $(function() {
-          $('a[href*=#]:not([href=#])').click(function() {
-              if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-                  || location.hostname == this.hostname) {
-
-                  var target = $(this.hash);
-                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                  if (target.length) {
-                      $('html,body').animate({
-                          scrollTop: target.offset().top
-                      }, 1000);
-                      return false;
-                  }
-              }
-          });
-      });
-  </script>
-  
-</body></html>
+<html>
+  <head>
+    <title>Mastermind</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="generator" content="GrapesJS Studio">
+  <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body id="iqfgvl"><div class="gjs-grid-row" id="i6dcl2"><div class="gjs-grid-column" id="ig7yfq"><div class="gjs-grid-row" id="imq6mf"><div class="gjs-grid-column" id="i91m4i"><div id="itttew">Mathis OURLIAC</div></div><div class="gjs-grid-column" id="idcg58"><div class="gjs-grid-row" id="it3rni"><div class="gjs-grid-column" id="ick43j"><a href="#feature-section" class="gjs-link" id="i9uwrj">Compétences</a></div></div></div><div class="gjs-grid-column" id="i4wmaf"><a class="gjs-button" id="i32ram">Mon CV</a></div></div></div></div><div class="gjs-grid-row" id="i8756g"><div class="gjs-grid-column" id="ikhhis"><h1 class="gjs-heading" id="i71rc3"><font color="#2463eb" id="il6qrc">Mastermind</font></h1><div id="iesjqf">Mathis OURLIAC</div></div></div><div class="gjs-grid-row" id="iw93jv"><div class="gjs-grid-column" id="ivz24k"><div class="gjs-grid-row" id="i022yb"><div class="gjs-grid-column" id="i8gjgn"><img id="iih95y" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"/></div><div class="gjs-grid-column" id="ibhgyj"><div id="iti8za">Insert your text here</div></div></div></div></div><div class="gjs-grid-row" id="iaxz5u"><div class="gjs-grid-column" id="i7tiaa"><div class="gjs-grid-row" id="itsbow"><div class="gjs-grid-column" id="ivskuq"><div id="if9o88">Insert your text here</div></div><div class="gjs-grid-column" id="iko1og"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+" id="i33no8"/></div></div></div></div><div class="gjs-grid-row" id="ixy15z"><div class="gjs-grid-column" id="i0xne5"><div id="iqzqa3">Intérressé ?</div><a class="gjs-button" id="iuzg0t">Télécharger Mon CV</a></div></div><div class="gjs-grid-row" id="irwe4h"><div class="gjs-grid-column" id="il4u1q"><div class="gjs-grid-row" id="i4thek"><div class="gjs-grid-column" id="ig1u0w"><a href="/" class="gjs-link-box" id="i0p3tk"><a class="gjs-link-box" id="isquig"><div data-type-icon class="gjs-icon" id="i5tv5b"><svg viewBox="0 0 24 24"><path d="M16 9h3l-5 7m-4-7h4l-2 8M5 9h3l2 7m5-12h2l2 3h-3m-5-3h2l1 3h-4M7 4h2L8 7H5m1-5L2 8l10 14L22 8l-4-6H6z"></path></svg></div></a><a class="gjs-link-box" id="i69axz"><div data-type-icon class="gjs-icon" id="ifj1q9"><svg viewBox="0 0 24 24"><path d="M16 9h3l-5 7m-4-7h4l-2 8M5 9h3l2 7m5-12h2l2 3h-3m-5-3h2l1 3h-4M7 4h2L8 7H5m1-5L2 8l10 14L22 8l-4-6H6z"></path></svg></div></a></a></div></div><div class="gjs-text-blue" id="i6as9h">Copyright © 2024 Mathis OURLIAC</div></div></div></body>
+</html>
